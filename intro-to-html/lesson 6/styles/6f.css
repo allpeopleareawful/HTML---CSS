@@ -1,0 +1,30 @@
+p {
+  font-family: Montserrat;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.actual-course {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.currency {
+  font-size: 16px;
+  color: grey;
+}
+
+.course-change-today {
+  font-size: 16px;
+  color: green;
+  margin-bottom: 8px;
+}
+
+.after-hours {
+  font-size: 16px;
+  color: grey;
+}
+
+.after-hours-change {
+  color: rgb(223, 20, 20);
+}

@@ -1,0 +1,29 @@
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Montserrat;
+  font-size: 18px;
+}
+
+.tweet-title {
+  margin-bottom: 5px;
+}
+
+.tweet-author {
+  font-weight: bold;
+}
+
+.tweet-info {
+  color: rgb(106, 106, 106);
+}
+
+.tweet {
+  width: 600px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+.handle {
+  color: rgb(0, 128, 255);
+  cursor: pointer;
+}
