@@ -1,0 +1,25 @@
+* {
+  font-family: Arial;
+}
+
+.div-install {
+  width: 355px;
+  background-color: rgb(31, 31, 31);
+  padding-top: 1px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.install-title {
+  font-weight: 700;
+  font-size: 24px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.install-info {
+  color: grey;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
