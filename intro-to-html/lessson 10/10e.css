@@ -1,0 +1,91 @@
+p {
+  font-family: Roboto, Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.div-user-profile {
+  display: inline-block;
+  width: 120px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.099);
+  margin-right: 5px;
+  padding-bottom: 5px;
+  transition: 0.15s;
+}
+
+.div-user-profile:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.200);
+}
+
+.div-user-profile:active {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.200);
+}
+
+.div-user-photo {
+  width: 120px;
+  height: 120px;
+}
+
+.user-photo {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.username {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.div-recomendation {
+  display: inline-block;
+}
+
+.div-rec-pic{
+  display: inline-block;
+}
+
+.div-mutual-friends{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.rec-pic {
+  width: 15px;
+  height: 15px;
+  border-radius: 20px;
+}
+
+.mutual-friends {
+  font-size: 8px;
+  color: grey;
+  padding-top: 4px;
+}
+
+.btn-add-friend:hover {
+  opacity: 0.9;
+}
+
+.btn-add-friend:active {
+  opacity: 0.75 ;
+}
+
+.profile {
+  margin-top: 5px;
+  padding-left: 5px;
+}
+
+.btn-add-friend {
+  font-size: 10px;
+  border: none;
+  background-color: rgb(56, 122, 229);
+  color: white;
+  padding: 5px 15px 5px 15px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.div-add-btn {
+
+}
