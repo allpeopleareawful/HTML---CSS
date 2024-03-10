@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gmail</title>
+    <style>
+      * {
+        font-family: Arial;
+      }
+      body {
+        padding: 10px;
+        }
+      .main-container {
+        max-width: 340px;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.3);
+        padding: 10px 15px;
+        border-radius: 5px;
+
+      }
+      .title {
+        color: gray;
+        height: 30px;
+        font-size: 14px;
+      }
+      .avatar {
+        width: 40px;
+        margin-right: 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .ava {
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+        border-radius: 50%
+      }
+      .msg-container {
+        display: flex;
+        margin-bottom: 18px
+      }
+      .msg-info {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 3px;
+      }
+      .msg-author {
+        font-weight: bold;
+      }
+      .time {
+        color: gray;
+        font-size: 14px;
+      }
+      .msg {
+        width: 1fr;
+      }
+      .msg-theme {
+        font-weight: bold;
+        font-size: 14px;
+        margin-bottom: 5px;
+      }
+      .msg-text {
+        color: gray;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="title">
+        ALL INBOXES
+      </div>
+      <div class="msg-container">
+        <div class="avatar">
+          <img class="ava" src="photos/640px-Adorable-animal-cat-20787.jpg" alt="">
+        </div>
+        <div class="msg">
+          <div class="msg-info">
+            <div class="msg-author">
+              Chewy Promotions
+            </div>
+            <div class="time">
+              4:58 PM
+            </div>
+          </div>
+          <div class="msg">
+            <div class="msg-theme">
+              Biggest sales of the year!
+            </div>
+            <div class="msg-text">
+              Hey there! We're writing to tell you about our...
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="msg-container">
+        <div class="avatar">
+          <img class="ava" src="photos/getty_513189787_110007.jpg" alt="">
+        </div>
+        <div class="msg">
+          <div class="msg-info">
+            <div class="msg-author">
+              Best Buy
+            </div>
+            <div class="time">
+              12:32 PM
+            </div>
+          </div>
+          <div class="msg">
+            <div class="msg-theme">
+              Your Best Buy eReceipt
+            </div>
+            <div class="msg-text">
+              Thank you for shopping at Best Buy, here is...
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="msg-container">
+        <div class="avatar">
+          <img class="ava" src="photos/top-10-cutest-cat-photos-of-all-time.jpg" alt="">
+        </div>
+        <div class="msg">
+          <div class="msg-info">
+            <div class="msg-author">
+              Netflix
+            </div>
+            <div class="time">
+              9:00 AM
+            </div>
+          </div>
+          <div class="msg">
+            <div class="msg-theme">
+              Here's what's coming soon to Netflix
+            </div>
+            <div class="msg-text">
+              Brand new movies and shows, old favorites...
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
